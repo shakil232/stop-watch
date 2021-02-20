@@ -1,0 +1,38 @@
+body{
+    background: cornflowerblue;
+}
+.header{
+    font-size: 50px;
+text-transform: none;
+    color: teal;
+}
+.container{
+    width: 800px;
+    text-align: center;
+    margin: 80px auto;
+   
+}
+.container img{
+    width: 25%;
+}
+h2{
+    font-size: 100px;
+    font-weight: 600;
+}
+.buttons{
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    margin-right: 5px;
+    background: transparent;
+    background-color: orange;
+    
+    outline: none;
+    transition: 1s;
+}
+.buttons:hover{
+    background-color:rgba(255,0,0,0.5);
+    color:white;
+    font-weight: 500;
+}
